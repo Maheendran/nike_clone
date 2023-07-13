@@ -1,0 +1,55 @@
+
+.Popular_div{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(29, 85, 115);
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    backdrop-filter: blur(5px);
+    padding-bottom: 1rem;
+}
+
+.Popular_div:hover{
+    backdrop-filter: blur(10);
+    transition: 0.5s ease-in-out;
+    box-shadow: rgba(255, 255, 255, 0.461) 5px 5px 10px;
+}
+.detail_img{
+    width: 40%;
+}
+.detail_box{
+    width: 50%;
+    margin: auto;
+  text-align: left;
+height: 100%;
+margin-top: 0rem;
+
+}
+.detail_img>img{
+    width: 110%;
+    transition: 0.5s ease-in-out;
+    transform: rotate(-25deg);
+    margin-top: 2rem;
+ 
+}
+.detail_img>img:hover{
+    transform: rotate(0deg);
+    transform: scale(1.2);
+   
+}
+
+.popular_div_section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.price_div{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 0px 2px 0px 4px;
+}

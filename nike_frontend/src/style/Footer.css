@@ -1,0 +1,36 @@
+.footer_div{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+.footer_wave{
+    width: 100%;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+    animation:  wave 5s linear infinite;
+}
+@keyframes wave{
+    0%{
+        transform: translateY(1rem)rotate(-2deg);
+    }
+    50%{
+        transform: translateY(-1rem)rotate(2deg);
+    }
+}
+.footer_detail{
+    margin: auto;
+    width: 50%;
+    height: 40px;
+   margin: auto;
+   z-index: 100;
+   position: absolute;
+   top: 3rem;
+   left: 25%;
+display: flex;
+justify-content: space-evenly;
+}
+.footer_detail img{
+    /* position: absolute; */
+    width: 10%;
+}
